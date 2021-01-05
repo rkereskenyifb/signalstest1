@@ -37,8 +37,12 @@ body,html {
 </head>
   <body>
     <div class="flex-container">
-      hello2
       <button onclick="fbq('track', 'Subscribe');">Subscribe</button>
+      <button onclick="fbq('track', 'ViewContent');">ViewContent</button>
+      <button onclick="fbq('track', 'Contact');">Contact</button>
+      <button onclick="fbq('track', 'AddToWishlist');">AddToWishlist</button>
+      <button onclick="fbq('track', 'AddToCart');">AddToCart</button>
+      <button onclick="fbq('track', 'Purchase', {currency: 'USD', value: 30.00});">Purchase</button>
     </div>
   </body>
 </html>
